@@ -1,6 +1,7 @@
 # Rethinking the Memory Staleness Problem in Dynamics GNN
   - staleness problem handeling
   - based on paper: arxiv:2006.10637 (Rossi at el)
+  - the code here is an updated code from https://github.com/twitter-research/tgn
 
 The staleness problem is a well-known problem when working with dynamic data, due to the absence of events for a long time. Since the memory of the node is updated only when the node is involved in an event, the i's memory becomes stale. Usually it refer to lack of events such as a temporal deactivating of a social account.
  
